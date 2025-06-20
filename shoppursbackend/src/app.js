@@ -107,7 +107,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const HOST = '0.0.0.0'; // This allows access from all network interfaces
 
 app.listen(PORT, HOST, () => {
